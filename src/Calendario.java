@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class Calendario {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-// Crear el menú para utilizar el Calenario 
-    int opcion; 
-    do {
+        // Crear el menú para utilizar el Calenario 
+        int opcion; 
+        do{
         System.out.println("\n=== MENÚ GESTOR DE EVENTOS - ESCUELA STEAM ===");
         System.out.println("1. Crear evento");
         System.out.println("2. Mostrar eventos");
@@ -19,12 +19,12 @@ public class Calendario {
         System.out.println("0. Salir");
         System.out.print("Selecciona una opción: ");
 
-            // Validación para asegurar que se introduce un entero válido
-            while (!scanner.hasNextInt()) {
-            System.out.println("Por favor, introduce un número válido.");
-            System.out.print("Elija una opción: ");
-            scanner.next(); // Limpiar entrada no válida
-            }
+        // Validación para asegurar que se introduce un entero válido
+        while (!scanner.hasNextInt()) {
+        System.out.println("Por favor, introduce un número válido.");
+        System.out.print("Elija una opción: ");
+        scanner.next(); // Limpiar entrada no válida
+        }
         opcion = scanner.nextInt();
 
         // Procesar las opciones para utilizar el Calenario
@@ -58,14 +58,11 @@ public class Calendario {
             break;
         }
 
-    }
-    while(opcion != 0);
-
-        //Cerrar la entrada de datos
-    scanner.close();
+    } while(opcion != 0);
+    scanner.close(); //Cerrar la entrada de datos
     }
 
-public static void crearEvento(){
+    public static void crearEvento(){
     String nombre, fecha, horaComienzo, horaFinalizacion, ubicacion, url;
     int publico;
     Scanner scanner = new Scanner(System.in);
@@ -90,27 +87,42 @@ public static void crearEvento(){
 
     System.out.print("Ingrese la URL de registro: ");
     url = scanner.nextLine();
-
     scanner.close();
-}
+    }
 
-public static void mostrarEventos(){
+    public static void mostrarEventos(){
 
-}
+    }
 
-public static void filtrarEventos(){
+    public static void filtrarEventos(){
 
-}
+    }   
 
-public static void actualizarEventos(){
+    public static void actualizarEventos(){
 
-}
+    }
 
-public static void eliminarEventos(){
+    public static void eliminarEventos(){
 
-}
+    }
 
-public static void mostarEstadisticas(){
+    public static void mostarEstadisticas(){
 
     }
 }
+
+
+
+
+
+// ¿Cómo se crea una rama en git? 
+
+
+// ¿Cómo inicia cada uno con su proyecto?
+
+// ¿Como debemos subir de manera adecuada cada uno su parte a la rama? 
+
+// ¿Como la unificamos? 
+
+
+// -- revisar docu intro ing soft
