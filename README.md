@@ -1,5 +1,3 @@
-// En este archivo se describe como funciona y como puede ser ejecutado el programa.
-
 # Gestión de Eventos - Escuela STEAM
 
 Este proyecto es una aplicación en consola para gestionar eventos de la Escuela STEAM.
