@@ -61,7 +61,7 @@ public class Calendario {
     }
     while(opcion != 0);
 
-        //Cerrar la entrada de datos
+    //Cerrar la entrada de datos
     scanner.close();
     }
 
